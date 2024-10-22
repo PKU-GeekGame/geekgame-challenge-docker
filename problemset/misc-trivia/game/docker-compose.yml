@@ -1,0 +1,14 @@
+version: '2'
+services:
+  front:
+    build: .
+    ports:
+      - 9001:5000
+    volumes:
+      - /opt/data/misc-trivia:/root/db
+      - /opt/logs/misc-trivia:/root/logs
+    restart: always
+    read_only: false
+    ipc: shareable
+    environment:
+      - TZ=Asia/Shanghai

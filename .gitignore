@@ -1,0 +1,17 @@
+*.pem
+
+.DS_Store/
+
+.idea/
+.vscode/
+
+__pycache__/
+*.pyc
+
+node_modules/
+
+logs/
+
+_cache/
+_gen/
+_variants/

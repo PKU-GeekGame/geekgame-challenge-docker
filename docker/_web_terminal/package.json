@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/node": "^16.10.3",
+    "express": "^4.17.1",
+    "express-ws": "^5.0.2",
+    "node-pty": "^0.10.1",
+    "typescript": "^4.4.3"
+  }
+}
